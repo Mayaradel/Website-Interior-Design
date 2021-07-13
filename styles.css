@@ -1,0 +1,13 @@
+html,
+body {
+    height : 100%;
+}
+
+/*cover*/
+#cover {
+    background : #222 url('cover.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+}

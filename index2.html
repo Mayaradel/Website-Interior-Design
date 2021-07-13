@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">
+      <img src="photo3.jpg" alt="logo" style="width:40px;">
+    </a>
+    
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> new designs</a>
+      </li>
+    </ul>
+  </nav>
+  
+  
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img1.jpg" alt="Los Angeles">
+    </div>
+    <div class="carousel-item">
+      <img  class="d-block w-100" src="img2.jpg" alt="Chicago">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img3.jpg" alt="New York" >
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<div class="container">
+ 
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="balcon.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Living room style</h4>
+      <p class="card-text"> Design your own balcony </p>
+     
+      <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">See more</button>
+      <div id="demo" class="collapse">
+       Our front porch is still decorated for summer and our back porch is decorated for fall.
+  </div>
+    </div>
+  </div>
+  <br>
+
+</body>
+</html>
